@@ -12,7 +12,7 @@
     `` - templete literals ou tamplate strings (posso inclusive fazer multilinhas)
 */
 
-/* Tipos de dados
+/* aula 5 - Tipos de dados
     Number 
     *números
 
@@ -20,3 +20,9 @@
         12.5 - reais
         NaN - Not a Number
         Infinity - infinito */
+
+/* aula 6 - Boolean (boleano)
+    - somente 2 valores
+    true - verdadeiro
+    false - falso
+*/
