@@ -11,3 +11,12 @@
     '' - aspas siples
     `` - templete literals ou tamplate strings (posso inclusive fazer multilinhas)
 */
+
+/* Tipos de dados
+    Number 
+    *números
+
+        33 - inteiros
+        12.5 - reais
+        NaN - Not a Number
+        Infinity - infinito */
