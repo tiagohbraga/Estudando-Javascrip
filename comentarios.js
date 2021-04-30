@@ -91,3 +91,52 @@ ___________________________________________
  console.log ('> existe y depois do bloco?',y) <-> isso dessa forma não funciona, precisa colocar dentro de um novo escopo
  */
 
+/*<script> (revisão)
+    //variáveis e tipos de dados
+    var name // declaração or declaration
+
+    name = "Mike" //assignment or atribuição de valores
+
+    //console.log(typeof name) //que tipo de dado foi colocado na variável
+
+    let age, isHuman //agrupamento de declarações
+
+     age = 20 
+     isHuman = true //finaliza aqui
+     //console.log (name, age, isHuman) //multiplos argumentos na função
+
+     //console.log('o '+ name + ' tem ' + age + ' anos.')//escrita de texto + variáveis concatenando valores
+
+     console.log(`o ${name} tem ${age} anos`)//escrita de texto + variáveis interpolando valores com template literals or tamplate strigs
+</script>*/
+
+/*puxando no html o js ou qualquer outro colocando o endereço
+<body>
+    <script src="./scripts.js"></script>
+</body>
+*/
+
+
+/*object
+
+const person = {
+    name: 'John',
+    age: 30,
+    weight: 88.6,
+    isAdmin: true
+}
+console.log(`${person.name} tem ${person.age} anos`)*/
+
+/*Array (usar let em vez de const) - revisão
+
+const animals = [
+    'Lion',
+    'Monley',
+    {
+        name: 'Cat',
+        age: 3
+    }
+]
+
+//acessar valores
+console.log (animals[2])*/
