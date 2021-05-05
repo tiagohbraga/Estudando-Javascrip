@@ -443,3 +443,55 @@ console.log(two !== "22")
 console.log(two !== 2)
 */
 
+
+/*
+let one = 1
+let two = 2
+
+// > maior que
+console.log(one > two)
+// >= maior ou igual a
+ console.log(one >= 1)
+console.log(two >= 1)
+
+// < menor que
+console.log(one < two)
+
+//<= menor ou igual a 
+console.log (one <= two)
+console.log (one <= 1)
+*/
+
+/*
+Operadores de atribuição  (Assignment)
+let x
+x = 1
+addition assignment
+    x += 2
+subtraction assignment
+    x -= 1
+multipication assignment
+    x *= 2
+division assingment
+    x /= 2
+remainder, exponetiation
+x %= 2
+x **= 2
+
+console.log(x)
+*/
+/*
+let pao = false
+let queijo = false
+
+//AND &&
+//console.log(pao && queijo)
+
+//OR ||
+//console.log(pao || queijo)
+
+//NOT ! (negação, troca a afirmação, false vira true)
+console.log(!pao, 
+    !queijo)
+*/
+

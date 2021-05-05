@@ -1,17 +1,9 @@
-//operadoresde comparação
+/*
+Operador condicional (Ternário)
+    Dependendo da condição, nós recebemos valores diferentes
+    condição então valor 1 se não valor 2
+    condition ? value1 : value2
 
-//Irá comparra valores e retornar um Boolean como resposta a comparação
-
-let one = 1
-let two = 2
-
-// == igual a
-// = recebe
-//console.log(two == 1)
-//console.log(one == 1)
-
-//!= diferente de
-//console.log(one != two)
-//console.log(one != 1)
-//console.log(one != "1")
-
+    exemplo
+*/
+let 
