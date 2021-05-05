@@ -1,12 +1,17 @@
-/*Expressões e Operadores
--Expressions (é qualquer linha de codigo que resolve alguma coisa no js)
--Operators
-    Binary
-    Unary
-    Ternary
-*/
-let number = 1/*isso aqui é uma expressão*/
+//operadoresde comparação
 
-/*console.log(--number) unary*/
-/*console.log(number + 1) Binary*/
-/*console.log (false ? 'alo' : 'nada') Ternary (unico no js por enquanto)*/
+//Irá comparra valores e retornar um Boolean como resposta a comparação
+
+let one = 1
+let two = 2
+
+// == igual a
+// = recebe
+//console.log(two == 1)
+//console.log(one == 1)
+
+//!= diferente de
+//console.log(one != two)
+//console.log(one != 1)
+//console.log(one != "1")
+

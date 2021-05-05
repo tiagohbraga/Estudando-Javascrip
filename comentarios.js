@@ -342,3 +342,104 @@ techs.unshift ("sql")
 let index = techs.indexOf ('css')
 
 console.log(index)*/
+/*
+/*Expressões e Operadores
+-Expressions (é qualquer linha de codigo que resolve alguma coisa no js)
+-Operators
+    Binary
+    Unary
+    Ternary
+
+let number = 1/*isso aqui é uma expressão*/
+
+/*console.log(--number) unary*/
+/*console.log(number + 1) Binary*/
+/*console.log (false ? 'alo' : 'nada') Ternary (unico no js por enquanto)*/
+
+/* new
+    *left-hand-side expression
+    *criar um novo projeto
+
+
+let name = new String ('Mayk')
+let age = new Number (23)
+let date = new Date ('2021-05-06')
+console.log(date)
+*/
+
+/* operadores do tipo unário
+typeof
+console.log(typeof "mayk")
+
+delete
+const person = {
+    name: 'mayk',
+    age: 25,
+}
+delete person.age
+console.log(person)
+*/
+
+/*Operadores Aritiméticos
+
+Multiplicação *
+console.log(3.2 * 5.5)
+
+Divisão / 
+console.log(12 / 2)
+
+Soma +
+console.log(34 + 67)
+
+Subtração - 
+console.log(34 - 23)
+
+Resto da divisão %
+let remainder
+remainder = 11 % 3
+console.log(remainder)
+
+Incremento ++
+let increment = 0
+increment ++
+console.log(increment)
+
+Decremento --
+let decrement = 0
+console.log(--decrement)
+
+Expenencial **
+console.log(3 ** 2)
+*/
+
+/*Gouping operator () faz mais sentido usar para calculos matematicos
+
+let total = (2 + 3) * 5
+console.log (total)*/
+
+/*operadoresde comparação
+
+Irá comparra valores e retornar um Boolean como resposta a comparação
+
+let one = 1
+let two = 2
+
+ == igual a
+ = recebe
+console.log(two == 1)
+console.log(one == 1)
+
+ != diferente de
+console.log(one != two)
+console.log(one != 1)
+console.log(one != "1")
+
+=== estritamente igual a
+onsole.log(one === "1")
+onsole.log(one === 1)
+
+!== estitamente diferente
+console.log(two !== "22")
+console.log(two !== 2)
+*/
+
