@@ -593,3 +593,58 @@ if(highTemperature){
 }
 */
 
+/*
+switch
+
+function calculate (number1, operator, number2){
+    let result
+
+    switch (operator){
+        case '+':
+            result = number1 + number2
+            break
+        case '-':
+            result = number1 - number2
+            break
+        case '*':
+            result = number1 * number2
+            break
+        case '/':
+            result = number1 / number2
+            break
+        default:
+            console.log('não implementado')
+            break
+}
+    return result
+}
+console.log (calculate (4, '*', 8 ))*/
+/*throw
+function sayMyName (name = ''){
+
+    if (name === ''){
+        throw 'Nome é obrigatório'
+    }
+console.log('depois do erro')
+}    
+//try...catch
+try {
+    sayMyName()
+} catch (e) {
+    console.log(e)
+}
+capturar erros na aplicação 
+*/
+
+/*
+Estrutura de repetição - for
+break - para a execução do loop
+continue - pula a execução do momento
+
+for(let i = 10; i > 0; i--){
+   if (i === 5){
+       continue;
+   }
+   console.log(i)
+}
+*/
