@@ -495,3 +495,37 @@ console.log(!pao,
     !queijo)
 */
 
+/*
+Operador condicional (Ternário)
+    Dependendo da condição, nós recebemos valores diferentes
+    condição então valor 1 se não valor 2
+    condition ? value1 : value2
+    (? então e os : se não)
+
+    exemplos:
+
+Café da manhã top    
+    let pao = true
+    let queijo = false
+
+    const niceBreakfast = pao || queijo ? 'Café top' : 'Café ruim'
+    console.log(niceBreakfast)
+Maior de 18
+    let age = 18
+    const canDrive = age >= 18 ? 'Can Drive' : 'cannot Drive'
+    console.log (canDrive)
+*/
+/*
+Operador de String (String Operator)
+
+comparison (comparação)
+    console.log('a' == 'b')
+
+concatenation (concatenação)
+    retorna a união de duas Strings
+    let alpha = 'alpha'
+    alpha += 'bet'
+    console.log(alpha + "s" + 15)
+    */
+
+
