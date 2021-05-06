@@ -574,5 +574,22 @@ console.log( [] ? 'verdadeiro' : 'falso')
     assignment (atribuição)             = += -= *=
 */
 
+//Control flow (controle do fluxo)
 
+/* if ... else
+else if (entre o if e o else caso queira colocar + condicionantes)
+sempre fazer em bloco {}
+
+let temperature = 36
+let highTemperature = temperature >= 37.5
+let mediumTemperature = temperature < 37.5 && temperature >= 37
+
+if(highTemperature){
+    console.log('Febre alta')
+}else if (mediumTemperature){
+    console.log ('Febre moderada')
+}else{
+    console.log('Saudável')
+}
+*/
 
