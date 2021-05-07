@@ -1,34 +1,37 @@
-let nota = 100
-function getNota(nota){
+/* SISTEMA DE GASTOS FAMILIARES
+Crie um objetoque possuirá 2 propriedades, abas do tipo array
+    - receitas: []
+    - despesas: []
 
-    let A = nota >= 90 && nota <= 100
-    let B = nota < 89 && nota >= 80
-    let C = nota < 79 && nota >= 70
-    let D = nota < 69 && nota >= 60
-    let F = nota < 60 && nota >= 0
-    let notaFinal;
-    if(A){
-        notaFinal = "A"   
-    }else if (B){
-        notaFinal = "B"   
-    }else if (C){
-        notaFinal = "C"   
-    }else if (D){
-        notaFinal = "D"   
-    }else if (F) {
-        notaFinal = "F"   
-    }else {
-        notaFinal = "nota inválida"
+agora crieuma função que irá calular o total de receitas e despesas e irá mostrar uma mensagem se a familía está com saldo positivo ou negativo, seguido do valor do saldo
+
+let family = {
+    incomes: [1500, 2200, 250.43,360.45],
+    expenses: [320.34, 128.42, 176.87, 1450.00, 2000]
+}
+function sum(array){
+    let total = 0;
+
+    for(let value of array){
+        total += value
     }
 
-    return notaFinal
+    return total
 }
-console.log(getNota (90))    
-console.log(getNota (75))  
-console.log(getNota (82))  
-console.log(getNota (60))  
-console.log(getNota (-1))  
-console.log(getNota (6))  
-console.log(getNota (70))  
-console.log(getNota (112))  
+function calculateBalance() {
+    const calculateIncomes = sum(family.incomes)
+    const calculateExpenses = sum(family.expenses)
 
+    const total = calculateIncomes - calculateExpenses
+
+    const itsOk = total >= 0
+
+    let balanceText = "Negativo"
+
+    if (itsOk){
+        balanceText = "Positivo"
+    }
+    console.log(`Seu saldo é ${balanceText}: R$ ${total.toFixed(2)}`)
+}
+calculateBalance()
+*/
